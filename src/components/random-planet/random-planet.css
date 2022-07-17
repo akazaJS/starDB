@@ -1,0 +1,20 @@
+.size{
+    width: 1000px;
+    height: 300px;
+    border:#313332 1px solid;
+    background-color: #313332;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+.pad{
+    padding-left: 10px;
+}
