@@ -1,0 +1,12 @@
+.padP{
+    padding-top: 50px;
+    padding-right: 855px;
+    padding-bottom: 40px;
+    border: #940b08 1px solid;
+}
+.act:hover{
+    background-color: #430432;
+}
+.smaller{
+    width: 200px;
+}

@@ -7,9 +7,9 @@ export default class ItemList extends React.Component{
     render() {
         return (
             <div className='place'>
-                <span>People</span>
-                <span>Planets</span>
-                <span>Starships</span>
+                <span className='acting'>Peoples</span>
+                <span className='acting'>Planets</span>
+                <span className='acting'>Starships</span>
             </div>
         );
     }

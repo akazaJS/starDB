@@ -16,13 +16,12 @@ state={
     rotationPeriod:null,
     diameter:null,
 }
-constructor() {
-    super();
+componentDidMount() {
     this.updatePlanet()
-        // this.interval=setInterval(this.updatePlanet, 2000)
+    this.interval=setInterval(this.updatePlanet, 7000)
 }
 
-onError=(err)=>{
+    onError=(err)=>{
 this.setState({
     error:true,
     loading:false

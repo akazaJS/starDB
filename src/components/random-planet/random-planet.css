@@ -1,7 +1,7 @@
 .size{
     width: 1000px;
     height: 300px;
-    border:#313332 1px solid;
+    border: antiquewhite 1px solid;
     background-color: #313332;
     border-radius: 7px;
     display: flex;
