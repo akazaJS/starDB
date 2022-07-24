@@ -15,7 +15,11 @@ export default class App extends React.Component{
         selectedPerson:4
     }
 
-
+    onItemSelected=(id)=>{
+        this.setState({
+            selectedPerson:id
+        })
+    }
 
     render() {
         return(
@@ -26,7 +30,7 @@ export default class App extends React.Component{
                 </div>
                 <RandomPlanet/>
                 <div className='bot'>
-                    <People />
+                    <People onItemSelected={this.onItemSelected} />
                     <PersonDetails personId={this.state.selectedPerson} />
                 </div>
             </div>

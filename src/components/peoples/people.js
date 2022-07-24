@@ -22,12 +22,12 @@ export default class People extends React.Component{
         })
     }
     renderItems(arr){
-      return arr.map((person)=>{
+      return arr.map((person,ind)=>{
           return(
               <li
                   className='list-group-item act pad'
                   key={person.id}
-                 onClick={()=>this.props.onItemSelected(person.id)}
+                 onClick={()=>this.props.onItemSelected(ind+1)}
               >
                   {person.name}
               </li>
